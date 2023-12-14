@@ -7,6 +7,7 @@ To initialize a capture open wireshark and select a interface which has traffic 
 When selecting a interface, Wireshark automatically starts a new capture, which is why you immediately gets prompted with network traffic. 
 
 Once the capture has been stopped you need to export the captured data in pcap format, this can be done by clicking File -> Export Specified Packets.. and then selecting the following format: 
+
 Wireshark/  -pcapng(*.ntar.gz;*.ntar.zst;*.ntar.lz4;*.ntar;*pcapng.gz;*pcapng.zst;*pcapng.lz4;*pcapng;)
 
 With the captured data saved in the correct format, you’re ready to move into the Python Implementation.
