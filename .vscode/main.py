@@ -33,7 +33,7 @@ def plotIPs(pcap):
 
 def retKML(dstip, srcip):
     dst = gi.record_by_name(dstip)
-    src = gi.record_by_name('106.66.173.169')
+    src = gi.record_by_name('xxx.xx.xx.xxx')
     try:
         dstlongitude = dst['longitude']
         dstlatitude = dst['latitude']
